@@ -1,3 +1,8 @@
 body{
     background-color:#F5F6CE;
 }
+
+.textoPersona{
+    font-size: 20px;
+    display: none;
+}
