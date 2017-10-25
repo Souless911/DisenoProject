@@ -1,0 +1,78 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto diseño </title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+  </head>
+  <body>
+<h2 align = "center"> Solution per member </h2>
+<h3 id = "solGina" style = "cursor:pointer; cursor: hand"> Georgina's solution </h3> 
+<br>
+<h4 id = "textoGina1" class = "textoPersona"> Description </h4>
+<p id = "textoGina2" class = "textoPersona"> Una solución es el poder tener acceso a todos los locales del Tecnológico a través de un solo portal. Esto se puede lograr con una página web
+    y aplicación móvil en las cuales se puedan comprar cualquier producto de todos los locales dentro de la universidad, incluyendo las cafeterías, papelerías
+    y restaurantes. Al entrar en el sistema el usuario puede ver qué hay dentro del Tec, que se vende y qué precios tienen. Así, puede ir seleccionando qué es
+    lo que quiere e ir agregándolo a su pedido. Al final se piensa tener un apartado en el que se pueda visualizar el ticket de lo que se ha acumulado y pagarlo.
+    El pago será en efectivo al momento de la entrega, por lo que se confirmaría entonces el pedido. También se planea tener un saldo que se puede recargar
+    en cualquier momento y tenerlo para consumir en otro momento. Tarjeta de crédio sería otra opción de pago a desarrollar en el futuro.
+    <br>
+    Otra cosa que se tiene en mente ofrecer un servicio extra en el que te llevan el producto directamente al lugar
+    donde te encuentres. </p>
+<h4  id = "textoGina3" class = "textoPersona"> How the problem will be solved </h4>
+<p  id = "textoGina4" class = "textoPersona"> De esta manera se podría comprar cualquiera cosa que una persona necesite sin necesidad de ir en persona al lugar ni de esperar
+ ahí mismo. Así, las personas serán capaces de eficientar su tiempo y concentrarse más en desarrollar su vida académica y profesional. </p>
+<div align = "center">
+    <h5> Prototipo papel </h5>
+    <img src="https://i.imgur.com/crPu5HI.jpg" width="25%" align = "center"  >
+</div>
+<br>
+<h3 id = "solJuan" style = "cursor:pointer; cursor: hand"> Juan's solution </h3> 
+<br>
+<h4 id = "textoJuan1" class = "textoPersona"> Description </h4>
+<p  id = "textoJuan2" class = "textoPersona"> 
+La solución que tengo en mente es una página web que luego se transforme en una app de celular, que podría estar ligada a la página oficial 
+del Tec y se utilizará para pedir sus productos.
+Dentro de la página web, después del login de la cuenta se tendrán todos los locales enumerados dentro del instituto, en donde están y los productos de cada local 
+así como su precio. Después de escoger los productos, que se llevan en el carrito, se decide el método de pago y en dónde se recogerán los productos, es decir a donde se envía 
+(preferiblemente se utilizarán los salones del Tec ya que están enumerados desacuerdo al edificio, piso y # de salón) entonces después de esto el local recibe su pedido y lo envía al lugar. 
+Preferiblemente se iniciará con dinero en efectivo los envíos por la falta de experiencia de la app, no dejarán su tarjeta de crédito o debito a personas nuevas en el sistema hasta que tenga
+mayor reconocimiento y confianza la app.
+</p>
+<h4  id = "textoJuan3" class = "textoPersona"> How the problem will be solved </h4>
+<p  id = "textoJuan4" class = "textoPersona"> 
+  El problema se resuelve en una manera que resulta eficiente tanto para estudiante como para maestros, para que puedan continuar trabajando en sus salones sin necesidad de moverse de lugar 
+  para buscar lo que necesitan. Esto a su vez puede resolver el problema de que la gente pierde mucho tiempo trasladándose de un lugar a otro en busca de sus materiales.
+</p>
+<div align = "center">
+  <img src="https://i.imgur.com/KegpAWo.jpg"  width="500">
+  <img src="https://i.imgur.com/w0y8yVe.jpg" width="390">
+</div>
+<br>
+
+<script src="js/vendor/jquery.js"></script>
+<script> 
+$(document).ready(function(){
+  $("#solGina").on("click",function(){
+    $("#textoGina1").toggle();
+    $("#textoGina2").toggle();
+    $("#textoGina3").toggle();
+    $("#textoGina4").toggle();
+  });
+});
+
+$(document).ready(function(){
+  $("#solJuan").on("click",function(){
+    $("#textoJuan1").toggle();
+    $("#textoJuan2").toggle();
+    $("#textoJuan3").toggle();
+    $("#textoJuan4").toggle();
+  });
+});
+</script>
+
+  </body>
+</html>
