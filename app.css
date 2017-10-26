@@ -7,5 +7,6 @@ body{
     display: none;
 }
 .producto{
-font-size: 25px
+    color: #0080FF;
+    font-size: 25px;
 }
