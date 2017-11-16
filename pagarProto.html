@@ -35,7 +35,7 @@
       <option value="hotdog">Saldo</option>
     </select>
   </label>
-  <button type="button" class="success button">Confirmar compra</button>
+  <button type="button" class="success button" id = "pago">Confirmar compra</button>
   <a href="#0" class="button"> Ver / Recargar saldo </a>
 
     </div>
@@ -49,6 +49,12 @@
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109191971-1"></script>
 <script>
+document.getElementById("pago").addEventListener("click",mostrar);
+
+function mostrar(){
+  alert("Gracias por tu compra");
+}
+  
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
