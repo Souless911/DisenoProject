@@ -14,3 +14,26 @@ body{
 .textoPago{
     font-size: 20px;
 }
+
+.titulo{ 
+    position: center; 
+    top: 180px; 
+    left: 0; 
+    width: 100%; 
+    color: white; 
+    font: bold 24px/45px Helvetica, Sans-Serif; 
+    letter-spacing: -1px;  
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.7); 
+    padding: 10px;
+}
+
+.boton{
+    background-color: #F4FA58;
+    color: black;
+}
+
+.buscar{
+    font-size: 20px;
+    font: bold 24px/45px Helvetica, Sans-Serif; 
+}
